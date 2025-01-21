@@ -74,6 +74,7 @@ section{
 #banner{
     display: flex;
     width: 100vw;
+    height: 60vh;
 }
 
 #texts{
@@ -138,6 +139,39 @@ section{
     
 }
 
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 65vh;
+    background-color:dimgrey;
+    opacity: 100%;
+           
+}
+
+#text2{
+    width: 40vw;
+    height: 50vh;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 50vh;
+}
+
+#service1 h4{
+    color: orange;
+
+
+}
+
+#service2{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
 
 /* Como linkar css
 Seletores
